@@ -135,6 +135,7 @@ nav {
   color: #ffffff;
   font-size: 18px;
   margin-top: 8px;
+  text-decoration: underline;
 }
 .y-tube {
   height: fit-content;
