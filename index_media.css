@@ -1,0 +1,128 @@
+/*     Media Quary On 1024px */
+
+@media screen and (min-width: 1024px) {
+    /* Nav Bar */
+    nav {
+      height: 12vh;
+      width: 100%;
+      position: fixed;
+      top: 0;
+    }
+  
+    .hero {
+      height: 57vh;
+      width: 104%;
+    }
+  
+    /*   Hero Section Start  */
+  
+    .learn,
+    .babbar {
+      font-size: 35px;
+    }
+    .tagline p {
+      font-size: 30px;
+    }
+    /*   Hero Section End */
+  
+    /* <!-- Social Data Section start --> */
+    .data-section {
+      /* margin-top: 240px; */
+      height: 45vh;
+      width: 104%;
+    }
+    .V-line1 {
+      height: 25vh;
+    }
+    /* <!-- Social Data Section End --> */
+  
+    .p2 {
+      font-size: 30px;
+    }
+   
+    .card {
+      height: 50vh;
+      width: 30vw;
+    }
+    .card-row1{
+      flex-wrap: wrap;
+    }
+    .card-row2{
+     flex-wrap: wrap-reverse;
+    }
+  
+    .company-logo{
+      height: 55vh;
+      width: 104%;
+    }
+  
+    .footer{
+      height: 40vh;
+      width: 104%;
+    }
+  
+    .V-line2 {
+      margin-top: 4px;
+      height: 35vh;
+    }
+  }
+  
+
+
+
+/*     Media Quary On 1280px */
+
+@media screen and (min-width: 1280px) {
+  /* Nav bar start */
+  nav {
+    height: 19vh;
+  }
+  /* Nav bar End */
+
+  /*   Hero Section Start  */
+
+  .learn,
+  .babbar {
+    font-size: 45px;
+  }
+  .tagline p {
+    font-size: 30px;
+  }
+  /*   Hero Section End */
+
+  /* <!-- Social Data Section start --> */
+  .data-section {
+    margin-top: 290px;
+    height: 50vh;
+  }
+  .V-line1 {
+    height: 25vh;
+  }
+  /* <!-- Social Data Section End --> */
+
+  .card {
+    height: 90vh;
+    width: 25vw;
+  }
+  .card-row1{
+    flex-wrap: nowrap;
+  }
+  .card-row2{
+   flex-wrap: nowrap;
+  }
+  .company-logo {
+    height: 40vh;
+    margin-bottom: 60px;
+  }
+  /* footer  start */
+  .footer {
+    height: 60vh;
+  }
+  .V-line2 {
+    margin-top: 35px;
+
+    height: 40vh;
+  }
+  /* footer  End */
+}
+

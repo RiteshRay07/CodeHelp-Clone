@@ -28,8 +28,8 @@ a {
 }
 /* =================== */
 nav {
-  height: 10vh;
-  width: 100vw;
+  height: 75px;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 50;
@@ -63,15 +63,15 @@ nav {
   /* height: fit-content; */
   /* margin-top: 7%; */
   padding-top: 12%;
-  height: 75vh;
-  width: 100vw;
+  height: 500px;
+  width: 100%;
   background-color: #ffffff;
   background-image: linear-gradient(45deg, #ffffff 55%, #c1cbf3 100%);
   justify-content: space-around;
   /* border: 2px solid rgb(0, 255, 68); */
 }
 .hero-left {
-  width: 42vw;
+  width: 40%;
   /* border: 2px solid rgb(255, 4, 0); */
   margin-right: 8px;
   align-items: center;
@@ -108,12 +108,12 @@ nav {
 }
 
 .hero-right {
-  width: 45vw;
+  width: 45%;
   /* border: 2px solid rgb(255, 64, 0); */
   margin-left: 3px;
 }
 .hero-right img {
-  width: 45vw;
+  width: 621px;
 }
 
 /* <!-- Hero Section Start --> */
@@ -122,8 +122,8 @@ nav {
 .data-section {
   margin-top: 100px;
   margin-bottom: 100px;
-  height: 30vh;
-  width: 100vw;
+  height: 200px;
+  width: 100%;
   background-color: #6674cc;
   text-align: center;
   align-items: center;
@@ -170,7 +170,7 @@ p {
 .V-line1 {
   margin-top: 2px;
   width: 2px;
-  height: 18vh;
+  height: 140px;
   background-color: #fffefe;
 }
 
@@ -206,13 +206,13 @@ p {
 /* -----card-section----- */
 .card-section {
   height: fit-content;
-
+  /* flex-wrap: wrap; */
   margin: 0px 40px 20px 40px;
   /* border: 2px solid red; */
 }
 .card {
-  height: 45vh;
-  width: 25vw;
+  height: 380px;
+  width: 300px;
   margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;
@@ -223,12 +223,15 @@ p {
   border-radius: 10px;
 }
 .card img{
+  padding-top: 40px;
   border-radius: 50%;
 }
 .card-row1 {
+  flex-wrap: wrap;
   justify-content: center;
 }
 .card-row2 {
+  /* flex-wrap: wrap; */
   justify-content: center;
 }
 .pp2 {
@@ -263,6 +266,7 @@ p {
   margin-top: 100px;
   margin-bottom: 80px;
   margin-left: 40px;
+  margin-right: 40px;
   /* border: 2px solid red; */
 }
 
@@ -298,11 +302,12 @@ p {
 .company-logo {
   justify-content: center;
   align-items: center;
-  height: 25vh;
+  height: 240px;
   width: 100vw;
   /* border: 2px solid red; */
 }
 .company-logo img {
+ 
   justify-content: center;
   margin-left: 60px;
 }
@@ -312,7 +317,7 @@ p {
 /* <!--  Footer Section Start --> */
 
 .footer {
-  height: 45vh;
+  height: 300px;
   width: 100vw;
 
   color: #ffffff;
@@ -324,7 +329,8 @@ p {
 
 .f-sec {
   width: 20vw;
-  height: 25vh;
+  height: 60px;
+  margin-top: -74px;
   padding-left: 15px;
   margin-left: 42px;
   align-items: center;
@@ -332,9 +338,9 @@ p {
   /* border: 2px solid red; */
 }
 .V-line2 {
-  margin-top: -45px;
+  margin-top: 25px;
   width: 2px;
-  height: 25vh;
+  height: 150px;
   background-color: #fffefe;
 }
 /* <!--  Footer Section End --> */
