@@ -166,6 +166,12 @@ p {
   margin-top: 10px;
   font-size: 18px;
 }
+.V-line1 {
+  margin-top: 2px;
+  width: 2px;
+  height: 18vh;
+  background-color: #fffefe;
+}
 
 /* <!-- Social Data Section End --> */
 
@@ -266,7 +272,7 @@ p {
 .know-more {
   margin-top: -4px;
 }
-.line {
+.H-line {
   margin-top: 25px;
   width: 90vw;
   height: 1px;
@@ -323,5 +329,11 @@ p {
   align-items: center;
   justify-content: center;
   /* border: 2px solid red; */
+}
+.V-line2 {
+  margin-top: -45px;
+  width: 2px;
+  height: 25vh;
+  background-color: #fffefe;
 }
 /* <!--  Footer Section End --> */
